@@ -1,0 +1,222 @@
+/* CSS Reset */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Main Nav Styles */
+
+html {
+	position: relative;
+	min-height: 100%;
+	background: #f67400;
+	font-family: Source Sans Pro, sans-serif;
+	font-size: 1em;
+	line-height: 1.4em;
+	color: #484848;
+}
+
+nav {
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 120px;
+	height: 100%;
+	padding: 15px;
+	background: #f67400;
+}
+
+#logo {
+	margin-bottom: 30px; 
+}
+
+.main-nav li {
+	font-family: Source Sans Prop, sans-serif;
+	font-size: 1em;
+	color: #fff;
+	font-weight: 100;
+	padding: 6px 6px 6px 14px;
+}
+
+.main-nav li a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.main-nav li a:hover {
+	text-decoration: underline;
+}
+
+div #contact {
+	position: absolute;
+	bottom: 50px;
+	left: 30px;
+}
+
+/* Body Styles */
+
+body {
+	display: block;
+	position: relative;
+	top: 0;
+	background: #fff;
+	width: 1100px;
+	margin-left: 150px;
+}
+
+header {
+	text-align: right;
+	padding: 30px;
+}
+
+.welcome {
+	padding: 70px;
+}
+
+h1 {
+	font-family: Give You Glory, sans-serif;
+	color: #f65700;
+	font-size: 2em;
+	margin-bottom: 10px;
+}
+
+h2 {
+	font-family: Give You Glory, sans-serif;
+	color: #1b9392;
+	font-size: 1.3em;
+	margin-bottom: 10px;
+}
+
+p {
+	font-family: Source Sans Pro, sans-serif;
+	font-size: 1em;
+	line-height: 1.4em;
+	color: #484848;
+}
+
+a {
+	text-decoration: none;
+	color: #f65700;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+button {
+	font-family: Source Sans Pro, sans-serif;
+	font-size: 1em;
+	line-height: 1em;
+	color: #f65700;
+	border: 1px solid #f65700;
+	border-radius: 6px;
+	background-color: #fff;
+	padding: 12px;
+	margin-top: 30px;
+}
+
+button:hover {
+	color: #fff;
+	background-color: #f65700;
+}
+
+.service-category {
+	display: inline-block;
+	float: left;
+	margin: 0;
+	width: 25%;
+}
+
+.service-description {
+	padding: 40px;
+}
+
+.back-to-top {
+	display: inline-block;
+	position: relative;
+	width: 100%;
+	color: #fff;
+	background-color: #1b9392;
+	height: 70px;
+}
+
+.back-to-top a {
+	color: #fff;
+	text-decoration: none;
+	font-family: Source Sans Pro, sans-serif;
+}
+
+.left {
+	float: left;
+	padding: 26px 40px;
+}
+
+.right {
+	float: right;
+	padding: 26px 40px;
+}
+
+/* Footer Styles */
+
+footer {
+	background: #fff;
+	padding: 40px;
+}
+
+.social {
+	float: right;
+}
+
+.copyright {
+	float: left;
+}
+
+footer > ul > li {
+	display: inline;
+	padding: 3px;
+	vertical-align: middle;
+}
+
+
