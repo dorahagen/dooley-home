@@ -186,6 +186,9 @@ button:hover {
 	color: #fff;
 	text-decoration: none;
 	font-family: Source Sans Pro, sans-serif;
+}
+
+back-link {
 	display: block;
 	position: absolute;
 	width: 100%
